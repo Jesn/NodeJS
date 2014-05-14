@@ -1,0 +1,126 @@
+问题：
+1、什么是模块
+2、如何创建并加载模块
+3、如何创建一个包
+4、如何使用包管理器
+
+什么是模块
+    模块是Node.js应用程序的基本组成部分，文件和模块式一一对应的。换言之，一个Node.js文件就是一个模块，这个文件可能是Javascript代码,
+JSON或者编译过的C/C++扩展。
+    例如： var http=require('http'),其中http是Node.js的一个核心模块，其内部实现是用C++实现的，外部用Javascript封装。我们通过require
+    函数获取了这个模块，然后才能使用其中的对象。
+
+创建及加载模块
+    1>创建模块
+    在Node.js中，创建一个模块非常简单，因为一个文件就是一个模块，我们要关注的问题仅仅在于如何在其他文件中获取这个模块。Node.js提供了
+exports和require两个对象，其中exports是模块公开的接口，require用于从外部获取一个模块的接口，即所获取模块的expors对象
+下面来举个例子：
+
+创建一个模块 Module.js
+var name;
+exports.setName=function (thyName)
+{
+    name=thyName;
+}
+
+exports.sayHello=function(){
+    console.log('Hello'+name +'你已经学会创建Node.js包咯哦，太聪明~\(≧▽≦)/~啦啦啦');
+}
+
+获取模块 GetModule.js
+var myModule=require('./Module');
+myModule.setName('Darren');
+myModule.sayHello();
+
+运行GetModule.js 即可得到如下内容
+HelloDarren你已经学会创建Node.js包咯哦，太聪明~(≧▽≦)/~啦啦啦
+
+以上示例中，module.js通过exports对象吧setName和sayHello作为模块的访问接口，在getmodule.js中通过require('./module')加载这个模块，
+然后就可以直接访问module.js中exports对象的成员函数啦
+    这种接口封装方式比许多语言要简洁的多，同时也不失优雅，未引入违反语义的特性，符合传统的编程逻辑。在这基础上，我们可以构建大型的应用
+程序，npm提供的上万个模块都是通过这种简单的方式搭建起来的。
+    2>单次加载
+    上面的例子有点类似于创建一个对象，但实际上和对象又有本质的区别，因为require不会重复加载模块，也就是说无论调用多少次require，获得
+的模块都是同一个，我们在getmodule.js的基础之上稍作修改：
+var myModule=require('./Module');
+myModule.setName('Darren');
+myModule.sayHello();
+
+var myModule2=require('./Module');
+myModule2.setName('jesn');
+myModule2.sayHello();
+
+运行后，发现结果是 “Hellojesn你已经学会创建Node.js包咯哦，太聪明~(≧▽≦)/~啦啦啦”
+这是因为变量myModule1和myModule2都是指向同一个实例，因为myModule2的结果会覆盖myModule1的结果
+
+    3>覆盖exports
+
+
+
+什么是包
+    包是在模块基础上更深一步的抽象，Node.js的包类似于C/C++的函数库或者Java/.Net的类库。它将某个独立的功能封装起来，用于发布、更新、依赖管理
+和版本控制，Node.js根据COmmonJS规范实现了包机制，开发了npm来解决包的发布和获取需求。
+    Node.js的包是一个目录，其中包含一个JSON格式的包说明文件package.json。严格符合CommonJS规范的包应该具备以下特征：
+
+    package.json必须在包的顶层目录下；
+    二进制文件应该在bin目录下；
+    JavaScript代码应该在lib目录下；
+    文档应该在doc目录下；
+    单元测试应该在test目录下。
+Node.js对包的要求并没有那么严格，只要顶层目录下有package.json，病符合一些规范即可。当然为了提高兼容性，我们最好在制作包的时候，严格
+遵守CommonJS规范。
+
+    package.js是CommonJS规定的用来描述包的文件，完全符合规范的package.json文件应该含有以下字段。
+
+    name：包的名称，必须是唯一的，由小写英文字母，数字和下划线组成，不能包含空格。
+    description：包的简要说明。
+    version：符合语义化版本识别规范的版本字符串。
+    keywords：关键字数组，通常用于搜索。
+    maintainers：维护者数组，每个元素要包含name、email（可选）、web（可选）字段
+    contributors：贡献者数组，格式与maintainers相同。包的作者应该是贡献者数组的第一个元素。
+    bugs：提交bug的地址，可以使网址或者电子邮件地址。
+    licenses：许可证数组，每个元素要包含type（许可证的名称）和url（链接到许可证文件的地址）字段。
+    repositories：仓库托管地址数组，每个元素要包含type（仓库的类型，如git），url（仓库的地址）和path（相对于仓库的路径，可选）字段。
+    dependencies：包的依赖，一个关键数组，由包名称和版本号组成。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

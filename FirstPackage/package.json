@@ -1,0 +1,7 @@
+
+{
+    "name": "application-name",
+    "main": "./lib/index.js",
+    "version": "0.0.1"
+}
+
