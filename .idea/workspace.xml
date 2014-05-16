@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea273aeb-8af3-46fe-83be-7f4ad6f98cd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HttpServer.js" afterPath="$PROJECT_DIR$/HttpServer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FirstPackage/lib/argv.js" afterPath="$PROJECT_DIR$/FirstPackage/lib/argv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unnamed1.patch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FirstPackage/lib/util.js" afterPath="$PROJECT_DIR$/FirstPackage/lib/util.js" />
+    </list>
+    <list id="ce52f274-810e-4b44-bc5c-f74817bdd15d" name="NodeJsDemo1" comment="NodeJsDemo1">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <list id="ce52f274-810e-4b44-bc5c-f74817bdd15d" name="NodeJsDemo1" comment="NodeJsDemo1" />
     <list id="52f4b2ec-4ad6-4d42-ba60-666fdcef0e89" name="New changelist" comment="" />
     <ignored path="NodejsDemo1.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/HttpServer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -52,8 +54,8 @@
       <file leaf-file-name="util.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FirstPackage/lib/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.034324944" vertical-offset="0" max-vertical-offset="874">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.034324944" vertical-offset="1830" max-vertical-offset="2760">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,6 +93,7 @@
         <option value="origin/master" />
       </list>
     </option>
+    <option name="mySelectedBranch" value="refs/heads/NodejsDemo1" />
     <option name="myStructureFilterPaths" />
     <option name="mySelectedUser" value="jesn" />
     <option name="mySelectedUserIsMe" value="true" />
@@ -249,9 +252,10 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FirstPackage/lib/argv.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FirstPackage/lib/util.js" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="dir.diff.last.used.directory" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -305,7 +309,7 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/Tool/NodeJs/node" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="Demo1.js" type="NodeJSConfigurationType" factoryName="Node.js" singleton="false" path-to-node="D:/Tool/NodeJs/node" path-to-js-file="FirstPackage/lib/argv.js" working-dir="$PROJECT_DIR$" coffeescript-path="E:\LocalHost\WebStorm\NodejsDemo1\FirstPackage\lib\index.js">
+    <configuration default="false" name="Demo1.js" type="NodeJSConfigurationType" factoryName="Node.js" singleton="false" path-to-node="D:/Tool/NodeJs/node" path-to-js-file="FirstPackage/lib/util.js" working-dir="$PROJECT_DIR$" coffeescript-path="E:\LocalHost\WebStorm\NodejsDemo1\FirstPackage\lib\index.js">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
@@ -356,7 +360,15 @@
       <created>1400258257393</created>
       <updated>1400258257393</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2014-5-16 -23-18">
+      <created>1400258440817</created>
+      <updated>1400258440817</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2014-5-16 -23-18">
+      <created>1400259483533</created>
+      <updated>1400259483533</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -392,7 +404,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39844617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1342812" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3118757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5951116" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -683,14 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HttpServer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FirstPackage/lib/argv.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="840">
@@ -699,10 +703,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FirstPackage/lib/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034324944" vertical-offset="0" max-vertical-offset="874">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.034324944" vertical-offset="1830" max-vertical-offset="2760">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
