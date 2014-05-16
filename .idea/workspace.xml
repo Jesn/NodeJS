@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea273aeb-8af3-46fe-83be-7f4ad6f98cd9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unnamed.patch" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="ce52f274-810e-4b44-bc5c-f74817bdd15d" name="NodeJsDemo1" comment="NodeJsDemo1" />
@@ -16,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="E:\LocalHost\WebStorm\NodejsDemo1" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -113,6 +114,11 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GitLogSettings">
     <option name="myStructureFilterPaths" />
@@ -343,7 +349,15 @@
       <created>1400251691569</created>
       <updated>1400251691569</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2014-5-16">
+      <created>1400251910219</created>
+      <updated>1400251910219</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2014-5-16">
+      <created>1400252246109</created>
+      <updated>1400252246109</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -425,6 +439,7 @@
       <TodoPanelSettings />
     </option>
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="true" />
     <MESSAGE value="2014-5-16" />
     <option name="LAST_COMMIT_MESSAGE" value="2014-5-16" />
   </component>
