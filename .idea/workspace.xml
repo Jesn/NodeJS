@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="ea273aeb-8af3-46fe-83be-7f4ad6f98cd9" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unnamed1.patch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FirstPackage/lib/util.js" afterPath="$PROJECT_DIR$/FirstPackage/lib/util.js" />
-    </list>
-    <list id="ce52f274-810e-4b44-bc5c-f74817bdd15d" name="NodeJsDemo1" comment="NodeJsDemo1">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\LocalHost\WebStorm\NodejsDemo1\.idea\NodejsDemo1.iml" afterPath="$PROJECT_DIR$/.idea/NodejsDemo.iml" />
     </list>
     <list id="52f4b2ec-4ad6-4d42-ba60-666fdcef0e89" name="New changelist" comment="" />
     <ignored path="NodejsDemo1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +54,8 @@
       <file leaf-file-name="util.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FirstPackage/lib/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.034324944" vertical-offset="1830" max-vertical-offset="2760">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.44622424" vertical-offset="0" max-vertical-offset="2760">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -93,10 +93,24 @@
         <option value="origin/master" />
       </list>
     </option>
-    <option name="mySelectedBranch" value="refs/heads/NodejsDemo1" />
-    <option name="myStructureFilterPaths" />
-    <option name="mySelectedUser" value="jesn" />
-    <option name="mySelectedUserIsMe" value="true" />
+    <option name="myStructureFilterPaths">
+      <list>
+        <option value="$PROJECT_DIR$/.idea" />
+        <option value="$PROJECT_DIR$/Event.js" />
+        <option value="$PROJECT_DIR$/FirstPackage" />
+        <option value="$PROJECT_DIR$/GetModule.js" />
+        <option value="$PROJECT_DIR$/GetPackage.js" />
+        <option value="$PROJECT_DIR$/HttpServer.js" />
+        <option value="$PROJECT_DIR$/Module.js" />
+        <option value="$PROJECT_DIR$/ReadFile.js" />
+        <option value="$PROJECT_DIR$/node_modules" />
+        <option value="$PROJECT_DIR$/package.json描述.txt" />
+        <option value="$PROJECT_DIR$/unnamed.patch" />
+        <option value="$PROJECT_DIR$/unnamed1.patch" />
+        <option value="$PROJECT_DIR$/包和模块" />
+      </list>
+    </option>
+    <option name="mySelectedUser" value="jesn2014" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -157,7 +171,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -180,63 +194,17 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsDemo1" />
+              <option name="myItemId" value="NodejsDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsDemo1" />
+              <option name="myItemId" value="NodejsDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NodejsDemo1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsDemo1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsDemo1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsDemo1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsDemo1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirstPackage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsDemo1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsDemo1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirstPackage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,7 +214,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="JavaScript.Libraries" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -327,7 +295,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ea273aeb-8af3-46fe-83be-7f4ad6f98cd9" name="Default" comment="" />
-      <changelist id="ce52f274-810e-4b44-bc5c-f74817bdd15d" name="NodeJsDemo1" comment="" />
+      <changelist id="" name="NodeJsDemo1" comment="" />
       <changelist id="52f4b2ec-4ad6-4d42-ba60-666fdcef0e89" name="New changelist" comment="" />
       <created>1399984744741</created>
       <updated>1399984744741</updated>
@@ -368,7 +336,11 @@
       <created>1400259483533</created>
       <updated>1400259483533</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="NodeJsDemo1">
+      <created>1400261629089</created>
+      <updated>1400261629089</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -400,7 +372,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46059933" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1342812" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1342812" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39844617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1342812" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -440,9 +412,11 @@
     </option>
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <MESSAGE value="2014-5-16" />
     <MESSAGE value="2014-5-16 -23-18" />
-    <option name="LAST_COMMIT_MESSAGE" value="2014-5-16 -23-18" />
+    <MESSAGE value="NodeJsDemo1" />
+    <option name="LAST_COMMIT_MESSAGE" value="NodeJsDemo1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -713,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FirstPackage/lib/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034324944" vertical-offset="1830" max-vertical-offset="2760">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.44622424" vertical-offset="0" max-vertical-offset="2760">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
